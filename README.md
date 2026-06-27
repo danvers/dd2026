@@ -14,13 +14,15 @@ Data Dialogue brings together perspectives from education, computer science, des
 
 Rather than treating data as neutral representations of reality, the initiative understands data as situated, contested, and socially produced. Through workshops, teaching, public events, and collaborative research, Data Dialogue creates spaces for critical reflection on computational infrastructures and digital society.
 
+The RMU Data Dialogue 2026 is dedicated to fostering critical and creative perspectives on data visualization, algorithmic practices, and digital infrastructures. It brings together emerging scholars and practitioners to explore how data and their visual representations shape perception, knowledge, and power in contemporary societies. This year's theme is **VISUALIZING CRITIQUE**.
+
+
+
 ---
 
 ## Contributing
 
-Contributions, suggestions, and corrections are welcome.
-
-Please open an issue or submit a pull request if you would like to contribute.
+Contributions, suggestions, and corrections are welcome. Please open an issue or submit a pull request if you would like to contribute.
 
 ---
 
@@ -30,9 +32,7 @@ Unless stated otherwise, all original website content is licensed under
 
 **Creative Commons Attribution 4.0 International (CC BY 4.0)**
 
-Source code is released under the **MIT License**.
-
-Please check individual files where different licenses apply.
+Source code is released under the **MIT License**. Please check individual files where different licenses apply.
 
 ---
 
