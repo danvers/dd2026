@@ -50,9 +50,6 @@ We have reserved a contingent of rooms at **Motel One at Römer** for participan
 - **Hotel Palmenhof** – Quiet boutique hotel close to Campus Westend  
   <https://www.hotel-palmenhof.de/>
 
-- **THE FLAG West M.** – Modern serviced apartments and hotel in Frankfurt's Westend  
-  <https://the-flag.de/en/the-flag-west-m/>
-
 - **Turm Hotel Frankfurt** – Comfortable mid-range hotel near Campus Westend  
   <https://www.turmhotel-frankfurt.de/>
 
@@ -61,20 +58,14 @@ We have reserved a contingent of rooms at **Motel One at Römer** for participan
 
 ### Other Recommended Options
 
-- **Scandic Frankfurt Hafenpark** *(higher price range)*  
+- **Scandic Frankfurt Hafenpark** *(mid price range)*  
   <https://www.scandichotels.com/hotels/germany/frankfurt/scandic-frankfurt-hafenpark>
 
 - **NH Frankfurt Spin Tower** *(mid- to upper-price range)*  
   <https://www.nh-hotels.com/en/hotel/nh-frankfurt-spin-tower>
 
-- **Gekko House Frankfurt** *(stylish boutique/design hotel near Messe)*  
-  <https://www.gekko-house.com/en/> :contentReference[oaicite:0]{index=0}
-
 - **B&B Hotel Frankfurt City-Ost** *(budget-friendly)*  
   <https://www.hotel-bb.com/en/hotel/frankfurt-city-ost>
-
-- **a&o Frankfurt Ostend** *(budget hotel/hostel)*  
-  <https://www.aohostels.com/en/frankfurt/frankfurt-ostend/>
 
 - **Premier Inn Frankfurt Westend** *(excellent value near Messe)*  
   <https://www.premierinn.com/de/en/hotels/germany/hessen/frankfurt/frankfurt-weste>
