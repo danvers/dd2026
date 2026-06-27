@@ -739,9 +739,23 @@ a.logo-slot.has-logo:hover img { filter: grayscale(0); }
 .prose h3::before { content: "/// "; color: var(--accent); }
 .prose ul {
   margin: 0 0 1.3rem;
-  padding-left: 1.3rem;
+  padding-left: 0;
+  list-style: none;
 }
 .prose li { margin-bottom: 0.4rem; }
+.prose ul li {
+  position: relative;
+  padding-left: 1.4rem;
+}
+.prose ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: var(--accent);
+}
 .prose a {
   color: var(--ink);
   text-decoration: underline;
