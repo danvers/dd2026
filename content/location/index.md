@@ -14,7 +14,7 @@ The winter school plays out across a handful of places in Frankfurt's Westend an
 
 Data Dialogue will take place at **Goethe University Frankfurt**, **Campus Westend**, one of Germany's most renowned university campuses.
 
-**Address**
+### Address
 
 Goethe University Frankfurt  
 Campus Westend  
@@ -58,38 +58,38 @@ We have reserved a contingent of rooms at **Motel One at Römer** for participan
 ### Close to Campus Westend
 
 - **Hotel Palmenhof** – Quiet boutique hotel close to Campus Westend  
-  https://www.hotel-palmenhof.de/
+  <https://www.hotel-palmenhof.de/>
 
 - **THE FLAG West M.** – Modern serviced apartments and hotel in Frankfurt's Westend  
-  https://the-flag.de/en/the-flag-west-m/
+  <https://the-flag.de/en/the-flag-west-m/>
 
 - **Turm Hotel Frankfurt** – Comfortable mid-range hotel near Campus Westend  
-  https://www.turmhotel-frankfurt.de/
+  <https://www.turmhotel-frankfurt.de/>
 
 - **SAKS Urban Design Hotel Frankfurt** – Stylish design hotel in the Westend, just a short walk from Campus Westend  
-  https://www.saksurban.com/
+  <https://www.saksurban.com/>
 
 ### Other Recommended Options
 
 - **Scandic Frankfurt Hafenpark** *(higher price range)*  
-  https://www.scandichotels.com/hotels/germany/frankfurt/scandic-frankfurt-hafenpark
+  <https://www.scandichotels.com/hotels/germany/frankfurt/scandic-frankfurt-hafenpark>
 
 - **NH Frankfurt Spin Tower** *(mid- to upper-price range)*  
-  https://www.nh-hotels.com/en/hotel/nh-frankfurt-spin-tower
+  <https://www.nh-hotels.com/en/hotel/nh-frankfurt-spin-tower>
 
 - **Gekko House Frankfurt** *(stylish boutique/design hotel near Messe)*  
-  https://www.gekko-house.com/en/ :contentReference[oaicite:0]{index=0}
+  <https://www.gekko-house.com/en/> :contentReference[oaicite:0]{index=0}
 
 - **B&B Hotel Frankfurt City-Ost** *(budget-friendly)*  
-  https://www.hotel-bb.com/en/hotel/frankfurt-city-ost
+  <https://www.hotel-bb.com/en/hotel/frankfurt-city-ost>
 
 - **a&o Frankfurt Ostend** *(budget hotel/hostel)*  
-  https://www.aohostels.com/en/frankfurt/frankfurt-ostend/
+  <https://www.aohostels.com/en/frankfurt/frankfurt-ostend/>
 
 - **Premier Inn Frankfurt Westend** *(excellent value near Messe)*  
-  https://www.premierinn.com/de/en/hotels/germany/hessen/frankfurt/frankfurt-weste
+  <https://www.premierinn.com/de/en/hotels/germany/hessen/frankfurt/frankfurt-weste>
 
 ## Contact
 
 Questions? Contact us at
-contact@datadialogue.eu
+<contact@datadialogue.eu>
