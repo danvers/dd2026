@@ -1,0 +1,18 @@
+{{ define "main" }}
+<section class="error-hero">
+  <canvas id="network-canvas"></canvas>
+  <div class="error-copy">
+    <p class="eyebrow">// ERROR — CONNECTION LOST</p>
+    <h1 class="error-code">4<span class="error-code-mark" aria-hidden="true"></span>4</h1>
+    <p class="error-title">This node isn&rsquo;t on the map.</p>
+    <p class="error-sub">The page you&rsquo;re looking for has drifted off the network. Let&rsquo;s reconnect you to a point that exists.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ "/" | relURL }}">← Back to start</a>
+      <a class="btn btn-secondary" href="{{ "/program/" | relURL }}">View Program</a>
+    </div>
+    <p class="error-hint mono">Drag your cursor through the field — the nodes will scatter.</p>
+  </div>
+</section>
+{{ $js := resources.Get "js/network.js" | resources.Minify }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}
