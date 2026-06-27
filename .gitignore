@@ -1,0 +1,18 @@
+.DS_Store
+# Hugo generated output
+public/
+resources/_gen/
+# Hugo cache (optional)
+.hugo_build.lock
+# Node (if you use npm)
+node_modules/
+# Editor
+.vscode/
+.idea/
+# Claude Code
+.claude/
+# Environment files
+.env
+.env.*
+# Logs
+*.log
