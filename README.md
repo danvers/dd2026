@@ -41,7 +41,7 @@ Source code is released under the **MIT License**. Please check individual files
   Prof. Dr. Dan Verständig\
   Educational Theory and Practices of Critical Computational Literacy\
   Center for Critical Computational Studies (C3S)\
-  Goethe University Frankfurt\
+  Goethe University Frankfurt
 
 * https://datadialogue.eu
 * https://c3s-frankfurt.de
