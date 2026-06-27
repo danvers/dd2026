@@ -39,7 +39,7 @@ Frankfurt has an extensive public transport network operated by RMV.
 
 Campus Westend is easily accessible by:
 
-- U-Bahn (Underground)
+- Subway (Underground)
 - Tram
 - Bus
 
