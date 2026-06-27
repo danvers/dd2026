@@ -1,0 +1,35 @@
+baseURL: ""
+title: RMU Data Dialogue 2026
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  description: "The Data Dialogue is a format and platform for sharing and discussing data-related topics. It provides a space for data enthusiasts to connect, learn, and collaborate on various data projects and initiatives."
+  keywords: [Winter School, Data Literacy, Data Dialogue, RMU]
+
+menu:
+  main:
+    - identifier: program
+      name: Program
+      url: /program/
+      weight: 10
+    - identifier: speakers
+      name: Speakers
+      url: /speakers/
+      weight: 20
+    - identifier: practical-info
+      name: Practical Info
+      url: /practical-info/
+      weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40

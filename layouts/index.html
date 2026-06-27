@@ -1,0 +1,46 @@
+{{ define "main" }}
+<section class="hero">
+  <canvas id="network-canvas"></canvas>
+  <div class="hero-copy">
+    <p class="eyebrow">// WINTER SCHOOL — RMU DATA DIALOGUE</p>
+    <h1>{{ .Title }}</h1>
+    <p class="tagline">{{ site.Params.description }}</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ "/program/" | relURL }}">Explore Program →</a>
+      <a class="btn btn-secondary" href="{{ "/speakers/" | relURL }}">View Speakers →</a>
+    </div>
+    <dl class="hero-meta">
+      <div><dt>Dates</dt><dd>9–11 Dec 2026</dd></div>
+      <div><dt>Location</dt><dd>Frankfurt am Main / Germany</dd></div>
+      <div><dt>Format</dt><dd>Workshops · Dialogue</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="statement-strip">
+  <p class="statement statement-accent">We don&rsquo;t just visualize data.</p>
+  <p class="statement statement-ink">We visualize perspectives, power, and possibility.</p>
+</section>
+
+<section class="about-text">
+  {{ .Content }}
+</section>
+
+<section class="partners">
+  <h2 class="section-heading">Organized By</h2>
+  <div class="logo-row">
+    {{ range hugo.Data.partners.organizers }}
+    {{ partial "partner-slot.html" . }}
+    {{ end }}
+  </div>
+
+  <h2 class="section-heading">Cooperation Partners</h2>
+  <div class="logo-row">
+    {{ range hugo.Data.partners.supporters }}
+    {{ partial "partner-slot.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ $js := resources.Get "js/network.js" | resources.Minify }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}

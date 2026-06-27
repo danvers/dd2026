@@ -1,0 +1,60 @@
+{{ define "main" }}
+<article class="page">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="chevron-pixel" viewBox="0 0 20 20">
+      <rect x="1" y="2" width="5" height="5" fill="#0b0b0b"/>
+      <rect x="14" y="2" width="5" height="5" fill="#0b0b0b"/>
+      <rect x="7.5" y="10" width="5" height="5" fill="#c6ff02"/>
+    </symbol>
+  </svg>
+
+  <div class="day-tabs" role="tablist">
+    {{ range $i, $day := hugo.Data.program }}
+    <button class="day-tab{{ if eq $i 0 }} is-active{{ end }}" role="tab" data-day="{{ $day.id }}">
+      <span class="day-tab-weekday">{{ $day.weekday }}</span>
+      <span class="day-tab-date">{{ $day.date }}</span>
+    </button>
+    {{ end }}
+  </div>
+
+  <div class="program-grid">
+    {{ range $i, $day := hugo.Data.program }}
+    <div class="day-panel{{ if eq $i 0 }} is-active{{ end }}" data-day="{{ $day.id }}">
+      <div class="day-panel-head">
+        <h2>{{ $day.title }}</h2>
+      </div>
+      <div class="day-panel-rule"></div>
+      <ol class="schedule">
+        {{ range $day.items }}
+        <li class="schedule-item type-{{ .type }}{{ if .details }} has-details{{ end }}">
+          {{ if .details }}
+          <button class="schedule-row" type="button" aria-expanded="false">
+          {{ else }}
+          <div class="schedule-row">
+          {{ end }}
+            <span class="schedule-text">
+              <span class="schedule-time mono">{{ .time }}</span>
+              <span class="schedule-title">{{ .title }}</span>
+            </span>
+            {{ if .details }}
+            <svg class="schedule-icon" aria-hidden="true"><use href="#chevron-pixel"></use></svg>
+            {{ end }}
+          {{ if .details }}</button>{{ else }}</div>{{ end }}
+          {{ if .details }}
+          <div class="schedule-panel">
+            <p class="schedule-panel-inner">{{ .details }}</p>
+          </div>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ol>
+    </div>
+    {{ end }}
+  </div>
+</article>
+{{ $js := resources.Get "js/program-tabs.js" | resources.Minify }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}

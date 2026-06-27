@@ -1,0 +1,70 @@
+- id: wed
+  weekday: "Wednesday"
+  date: "9 Dec 2026"
+  title: "Day 1: Creativity"
+  items:
+    - time: "13:00 – 14:00"
+      title: "Welcome / Opening"
+      type: break
+    - time: "14:00 – 17:00"
+      title: "Creative Data Literacy (Stefanie)"
+      type: session
+      details: "Hands-on workshop exploring hand-drawn and experimental approaches to data literacy. Placeholder text — replace with the real workshop description."
+    - time: "17:00 – 18:00"
+      title: "Get Together — PA Lobby"
+      type: break
+    - time: "19:00"
+      title: "Dinner together"
+      type: meal
+      details: "Group dinner to close out Day 1. Placeholder text — replace with the real location and details."
+
+- id: thu
+  weekday: "Thursday"
+  date: "10 Dec 2026"
+  title: "Day 2: Crises"
+  items:
+    - time: "09:15 – 09:30"
+      title: "Opening Day 2"
+      type: break
+    - time: "09:30 – 12:00"
+      title: "AI War Cloud | Knowledge Graphs & Power (Sarah)"
+      type: session
+      details: "Workshop on critical and feminist approaches to AI, knowledge graphs, and power structures in data systems. Placeholder text — replace with the real workshop description."
+    - time: "12:00 – 13:00"
+      title: "Lunch — PA Lobby"
+      type: break
+    - time: "13:00 – 15:30"
+      title: "Cosmopolemos (Crofton)"
+      type: session
+      details: "Workshop on investigative data journalism methods, security, and accountability. Placeholder text — replace with the real workshop description."
+    - time: "17:30"
+      title: "Exhibition Opening at display"
+      type: session
+      details: "Opening of the student/participant exhibition, with works on display from across the winter school. Placeholder text — replace with the real description."
+    - time: "19:00"
+      title: "Social Event — City of Frankfurt"
+      type: session
+      details: "Evening social event exploring the city of Frankfurt together. Placeholder text — replace with the real description and meeting point."
+
+- id: fri
+  weekday: "Friday"
+  date: "11 Dec 2026"
+  title: "Day 3: Critical Practice"
+  items:
+    - time: "09:15 – 09:30"
+      title: "Opening Day 3"
+      type: break
+    - time: "09:30 – 11:00"
+      title: "Best Practices in Data Vis (Gregor)"
+      type: session
+      details: "Workshop on practical data visualization and graphics workflows for newsrooms and storytelling. Placeholder text — replace with the real workshop description."
+    - time: "11:00 – 12:30"
+      title: "Break — PA Lobby"
+      type: break
+    - time: "12:30 – 13:30"
+      title: "Educational Outcome (Jane)"
+      type: session
+      details: "Workshop reflecting on how young people learn AI and computing concepts, and what this means for the winter school's outcomes. Placeholder text — replace with the real workshop description."
+    - time: "13:30 – 14:30"
+      title: "Roundtable Reflection + Farewell"
+      type: break

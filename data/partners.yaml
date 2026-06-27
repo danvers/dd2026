@@ -1,0 +1,18 @@
+organizers:
+  - name: "Goethe University Frankfurt / Center for Critical Computational Studies (C3S)"
+    logo: "/images/c3s-goethe-logo.png"
+    url: "https://www.c3s-frankfurt.de/"
+  - name: "Johannes Gutenberg University Mainz"
+    logo: "/images/jgu-mainz.jpg"
+    url: "https://www.uni-mainz.de/en/"
+
+supporters:
+  - name: "City of Frankfurt"
+    logo: "/images/Frankfurt_am_Main_logo.svg.png"
+    url: "https://frankfurt.de/english/"
+  - name: "NODE Forum"
+    logo: "/images/NODE-SW.png"
+    url: "https://nodeforum.org/"
+  - name: "Display"
+    logo: "/images/display.png"
+    url: "https://nodeforum.org/activities/display/"

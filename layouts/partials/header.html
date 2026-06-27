@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ "/" | relURL }}">
+      <img src="/images/mark.svg" alt="" class="brand-mark">
+      <span class="brand-text">
+        <span class="brand-title">{{ site.Title }}</span>
+        <span class="brand-tag">VISUALIZING CRITIQUE</span>
+      </span>
+    </a>
+    <nav class="site-nav">
+      {{ range site.Menus.main }}
+      <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

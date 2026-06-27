@@ -1,0 +1,12 @@
+{{ $p := . }}
+{{ $inner := "" }}
+{{ if $p.logo }}
+  {{ $inner = printf "<img src=%q alt=%q>" $p.logo $p.name }}
+{{ else }}
+  {{ $inner = $p.name }}
+{{ end }}
+{{ if $p.url }}
+<a class="logo-slot{{ if $p.logo }} has-logo{{ end }}" href="{{ $p.url }}" target="_blank" rel="noopener" title="{{ $p.name }}">{{ $inner | safeHTML }}</a>
+{{ else }}
+<div class="logo-slot{{ if $p.logo }} has-logo{{ end }}">{{ $inner | safeHTML }}</div>
+{{ end }}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>RMU Data Dialogue 2026</title>
+		<link>//localhost:1313/</link>
+		<description>Recent content on RMU Data Dialogue 2026</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 26 May 2026 21:35:57 +0200</lastBuildDate>
+		
+			<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About</title>
+				<link>//localhost:1313/about/</link>
+				<pubDate>Tue, 26 May 2026 21:35:57 +0200</pubDate>
+				<guid>//localhost:1313/about/</guid>
+				<description>&lt;h2 id=&#34;what&#34;&gt;What&lt;/h2&gt;&#xA;&lt;p&gt;The RMU Data Dialogue 2026 is dedicated to fostering critical and creative perspectives on data visualization, algorithmic practices, and digital infrastructures. It brings together emerging scholars and practitioners to explore how data and their visual representations shape perception, knowledge, and power in contemporary societies.&lt;/p&gt;&#xA;&lt;p&gt;Participants will engage with current debates in critical data and computational studies, addressing issues such as data ethics, algorithmic bias, visualization politics, digital surveillance, and data justice. This year&amp;rsquo;s program centers on the idea of visualizing data as critical practice, understood as using visualization not merely to display information but to interrogate, disrupt, and reimagine how data constructs realities, governs attention, and influences action.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Practical Info</title>
+				<link>//localhost:1313/practical-info/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/practical-info/</guid>
+				<description>&lt;p&gt;Venue, dates, and travel details coming soon.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Program</title>
+				<link>//localhost:1313/program/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/program/</guid>
+				<description>&lt;p&gt;Three days, three themes — 9–11 December 2026.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Speakers</title>
+				<link>//localhost:1313/speakers/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/speakers/</guid>
+				<description>&lt;p&gt;Meet the speakers of the RMU Data Dialogue Winter School 2026.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
