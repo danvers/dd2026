@@ -54,7 +54,7 @@ We recommend using public transport whenever possible.
 
 ## Accommodation
 
-We have reserved a contingent of rooms at **Motel Römer** for participants. Further information on booking and reservation codes will be provided after registration.
+We have reserved a contingent of rooms at **Motel One at Römer** for participants. Further information on booking and reservation codes will be provided after registration.
 
 ### Close to Campus Westend
 
@@ -71,9 +71,6 @@ We have reserved a contingent of rooms at **Motel Römer** for participants. Fur
   https://www.saksurban.com/
 
 ### Other Recommended Options
-
-- **Motel Römer** *(conference room contingent)*  
-  https://motelroemer.de/
 
 - **Scandic Frankfurt Hafenpark** *(higher price range)*  
   https://www.scandichotels.com/hotels/germany/frankfurt/scandic-frankfurt-hafenpark
