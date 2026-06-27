@@ -24,7 +24,6 @@ Germany
 
 The exact building and room information will be announced closer to the event.
 
-
 ## Travel
 
 ### By Plane
