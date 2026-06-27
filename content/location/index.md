@@ -39,9 +39,7 @@ The closest stations (Underground) include:
 - **Holzhausenstraße** (U1, U2, U3, U8)
 - **Miquel-/Adickesallee** (U1, U2, U3, U8)
 
-From both stations, the campus is within a short walking distance.
-
-We recommend using public transport whenever possible.
+From both stations, the campus is within a short walking distance. We recommend using public transport whenever possible.
 
 ## Accommodation
 
