@@ -488,7 +488,6 @@ a.logo-slot.has-logo:hover img { filter: grayscale(0); }
   .schedule-time { flex: 0 0 130px; }
   .schedule-icon { margin-top: 0; }
 }
-
 /* venue cards (Location) — two venues side by side */
 .venue-grid {
   display: grid;

@@ -43,32 +43,23 @@ From both stations, the campus is within a short walking distance. We recommend 
 
 ## Accommodation
 
-We have reserved a contingent of rooms at **Motel One at Römer** for participants. Further information on booking and reservation codes will be provided after registration.
+We have reserved a contingent of rooms at **[Motel One at Römer](https://www.motel-one.com/de/hotels/frankfurt/hotel-frankfurt-roemer/)** for participants. Further information on booking and reservation codes will be provided after registration.
 
 ### Close to Campus Westend
 
-- **Hotel Palmenhof** – Quiet boutique hotel close to Campus Westend  
-  <https://www.hotel-palmenhof.de/>
+- [SAKS Urban Design Hotel Frankfurt](https://www.saksurban.com/) – Stylish design hotel in the Westend
 
-- **Turm Hotel Frankfurt** – Comfortable mid-range hotel near Campus Westend  
-  <https://www.turmhotel-frankfurt.de/>
-
-- **SAKS Urban Design Hotel Frankfurt** – Stylish design hotel in the Westend  
-  <https://www.saksurban.com/>
+- [Turm Hotel Frankfurt](https://www.turmhotel-frankfurt.de/) – Comfortable mid-range hotel near Campus Westend
 
 ### Other Recommended Options
 
-- **Scandic Frankfurt Hafenpark** *(mid price range)*  
-  <https://www.scandichotels.com/hotels/germany/frankfurt/scandic-frankfurt-hafenpark>
+- [NH Collection Frankfurt Spin Tower](https://www.nh-hotels.com/en/hotel/nh-collection-frankfurt-spin-tower) *(mid- to upper-price range)*
 
-- **NH Frankfurt Spin Tower** *(mid- to upper-price range)*  
-  <https://www.nh-hotels.com/en/hotel/nh-collection-frankfurt-spin-tower>
+- [Scandic Frankfurt Hafenpark](https://www.scandichotels.com/hotels/germany/frankfurt/scandic-frankfurt-hafenpark) *(mid price range)*
 
-- **B&B Hotel Frankfurt City-Ost** *(budget-friendly)*  
-  <https://www.hotel-bb.com/en/hotel/frankfurt-city-ost>
+- [B&B Hotel Frankfurt City-Ost](https://www.hotel-bb.com/en/hotel/frankfurt-city-ost)** *(budget-friendly)*
 
-- **Premier Inn Frankfurt Westend** *(excellent value near Messe)*  
-  <https://www.premierinn.com/de/en/hotels/germany/hessen/frankfurt/frankfurt-weste>
+- [Premier Inn Frankfurt Westend](https://www.premierinn.com/gb/en/hotels/germany/hesse/frankfurt/frankfurt-westend.html) *(excellent value near Messe)*
 
 ## Contact
 
