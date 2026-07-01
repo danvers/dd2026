@@ -29,7 +29,16 @@
       <div class="day-panel-rule"></div>
       <ol class="schedule">
         {{ range $day.items }}
-        <li class="schedule-item type-{{ .type }}{{ if .details }} has-details{{ end }}">
+        {{ $item := . }}
+        {{ $speaker := "" }}
+        {{ $speakerInitials := "" }}
+        {{ if $item.speaker }}
+          {{ range hugo.Data.people }}
+            {{ if eq .name $item.speaker }}{{ $speaker = . }}{{ end }}
+          {{ end }}
+          {{ range first 2 (split $item.speaker " ") }}{{ $speakerInitials = print $speakerInitials (substr . 0 1) }}{{ end }}
+        {{ end }}
+        <li id="{{ .id }}" class="schedule-item type-{{ .type }}{{ if .details }} has-details{{ end }}">
           {{ if .details }}
           <button class="schedule-row" type="button" aria-expanded="false">
           {{ else }}
@@ -45,7 +54,25 @@
           {{ if .details }}</button>{{ else }}</div>{{ end }}
           {{ if .details }}
           <div class="schedule-panel">
-            <p class="schedule-panel-inner">{{ .details }}</p>
+            <div class="schedule-panel-inner">
+              <p>{{ .details }}</p>
+              {{ if $speaker }}
+              <div class="schedule-speaker">
+                <div class="schedule-speaker-avatar">
+                  {{ if $speaker.img }}
+                  <img src="{{ $speaker.img }}" alt="{{ $speaker.name }}" loading="lazy">
+                  {{ else }}
+                  {{ $speakerInitials }}
+                  {{ end }}
+                </div>
+                <div class="schedule-speaker-text">
+                  <p class="schedule-speaker-name">{{ $speaker.name }}</p>
+                  <p class="schedule-speaker-role">{{ $speaker.role }}</p>
+                  <p class="schedule-speaker-bio">{{ $speaker.bio }}</p>
+                </div>
+              </div>
+              {{ end }}
+            </div>
           </div>
           {{ end }}
         </li>

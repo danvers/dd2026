@@ -1,13 +1,35 @@
 {{ $p := . }}
 {{ $initials := "" }}
 {{ range first 2 (split $p.name " ") }}{{ $initials = print $initials (substr . 0 1) }}{{ end }}
+{{ $link := "" }}
+{{ $external := false }}
+{{ if $p.url }}
+  {{ $link = $p.url }}
+  {{ $external = true }}
+{{ else }}
+  {{ range hugo.Data.program }}
+    {{ range .items }}
+      {{ if and .speaker (eq .speaker $p.name) }}{{ $link = printf "/program/#%s" .id }}{{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if $link }}
+<a class="person-card" href="{{ $link }}"{{ if $external }} target="_blank" rel="noopener"{{ end }}{{ if $p.bio }} title="{{ $p.bio }}"{{ end }}>
+{{ else }}
 <div class="person-card"{{ if $p.bio }} title="{{ $p.bio }}"{{ end }}>
+{{ end }}
   <div class="avatar-flip">
     <div class="avatar-flip-inner">
-      <div class="avatar avatar-front">{{ $initials }}</div>
+      <div class="avatar avatar-front">
+        {{ if $p.img }}
+          <img src="{{ $p.img }}" alt="{{ $p.name }}" loading="lazy">
+        {{ else }}
+          {{ $initials }}
+        {{ end }}
+      </div>
       <div class="avatar avatar-back"><img src="/images/mark-light.svg" alt="" class="avatar-back-mark"></div>
     </div>
   </div>
   <h3 class="person-name">{{ $p.name }}</h3>
   <p class="person-role">{{ $p.role }}</p>
-</div>
+{{ if $link }}</a>{{ else }}</div>{{ end }}

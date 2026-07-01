@@ -3,20 +3,26 @@
   date: "9 Dec 2026"
   title: "Day 1: Creativity"
   items:
-    - time: "13:00 – 13:30"
+    - id: "wed-registration"
+      time: "13:00 – 13:30"
       title: "Registration & Welcome Snacks"
       type: break
-    - time: "13:30 – 14:00"
+    - id: "wed-opening"
+      time: "13:30 – 14:00"
       title: "Opening & Welcome"
       type: break
-    - time: "14:00 – 17:00"
+    - id: "wed-posavec"
+      time: "14:00 – 17:00"
       title: "Creative Data Visualization with Stefanie Posavec"
       type: session
+      speaker: "Stefanie Posavec"
       details: "Hands-on workshop exploring hand-drawn and experimental approaches to data visualization. In this workshop, participants will engage with various techniques and tools to create compelling data visualizations. No prior experience in data visualization is required, and all materials will be provided. Participants are encouraged to bring their own datasets or ideas to work with during the session."
-    - time: "17:00 – 18:00"
+    - id: "wed-get-together"
+      time: "17:00 – 18:00"
       title: "Get Together — Lobby PA building"
       type: break
-    - time: "19:00"
+    - id: "wed-dinner"
+      time: "19:00"
       title: "Dinner together — Naná"
       type: session
       details: "Group dinner to close out Day 1 at Naná, a convivial Sicilian/Italian kitchen in the Westend (Grüneburgweg 95, a short walk from Campus Westend)."
@@ -26,44 +32,58 @@
   date: "10 Dec 2026"
   title: "Day 2: Crises"
   items:
-    - time: "09:15 – 09:30"
+    - id: "thu-opening"
+      time: "09:15 – 09:30"
       title: "Opening Day 2"
       type: break
-    - time: "09:30 – 12:00"
+    - id: "thu-ciston"
+      time: "09:30 – 12:00"
       title: "AI War Cloud | Knowledge Graphs & Power with Sarah Ciston"
       type: session
+      speaker: "Sarah Ciston"
       details: "Workshop on critical and feminist approaches to AI, knowledge graphs, and power structures in data systems. Dialogue on the implications of AI in society."
-    - time: "12:00 – 13:00"
+    - id: "thu-lunch"
+      time: "12:00 – 13:00"
       title: "Lunch — Lobby PA building"
       type: break
-    - time: "13:00 – 15:00"
+    - id: "thu-black"
+      time: "13:00 – 15:00"
       title: "Introduction to Cosmopolemos with Crofton Black"
       type: session
+      speaker: "Crofton Black"
       details: "Workshop on investigative data journalism methods, security, and accountability. A dialogue on the role of data in uncovering hidden narratives and promoting transparency."
-    - time: "17:00 - open end"
+    - id: "thu-exhibition"
+      time: "17:00 - open end"
       title: "Exhibition Opening at display"
       type: session
       details: "Opening the exhibition at display a public space for digital practice in the center of Frankfurt. As a walk-in screen and interface, experimental laboratory, and community space, it is the perfect place to reach out to the community of Frankfurt."
-   
+
 - id: fri
   weekday: "Friday"
   date: "11 Dec 2026"
   title: "Day 3: Connections"
   items:
-    - time: "09:15 – 09:30"
+    - id: "fri-opening"
+      time: "09:15 – 09:30"
       title: "Opening Day 3"
       type: break
-    - time: "09:30 – 11:00"
+    - id: "fri-aisch"
+      time: "09:30 – 11:00"
       title: "Good Practices in Data Visualization with Gregor Aisch"
       type: session
+      speaker: "Gregor Aisch"
       details: "Workshop on practical data visualization and graphics workflows for newsrooms and storytelling. This workshop will cover the latest techniques and tools for creating compelling data visualizations."
-    - time: "11:00 – 11:30"
+    - id: "fri-break"
+      time: "11:00 – 11:30"
       title: "Short Break — Lobby PA building"
       type: break
-    - time: "11:30 – 13:00"
+    - id: "fri-waite"
+      time: "11:30 – 13:00"
       title: "Educational Outcomes of AI and Computing with Jane Waite"
       type: session
+      speaker: "Jane Waite"
       details: "Workshop on the educational outcomes of AI and computing, exploring how these technologies are shaping learning environments and student experiences. Participants will engage in discussions and activities to understand the impact of AI on education."
-    - time: "13:00 – 14:00"
+    - id: "fri-roundtable"
+      time: "13:00 – 14:00"
       title: "Roundtable Reflection + Farewell"
       type: break

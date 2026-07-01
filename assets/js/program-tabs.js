@@ -15,6 +15,14 @@
     return match;
   }
 
+  function openItem(item) {
+    var row = item.querySelector(".schedule-row");
+    var panel = item.querySelector(".schedule-panel");
+    item.classList.add("is-open");
+    row.setAttribute("aria-expanded", "true");
+    panel.style.maxHeight = panel.scrollHeight + "px";
+  }
+
   if (tabs.length) {
     tabs.forEach(function (tab) {
       tab.addEventListener("click", function () {
@@ -22,10 +30,21 @@
       });
     });
 
-    // open the day referenced in the URL hash, e.g. /program/#wed
+    // open the day (e.g. /program/#wed) or the specific schedule item
+    // (e.g. /program/#thu-ciston) referenced in the URL hash
     var fromHash = function () {
-      var day = (location.hash || "").replace("#", "");
-      if (day) { activate(day); }
+      var hash = (location.hash || "").replace("#", "");
+      if (!hash) { return; }
+
+      var item = document.getElementById(hash);
+      if (item && item.classList.contains("schedule-item")) {
+        var dayPanel = item.closest(".day-panel");
+        if (dayPanel) { activate(dayPanel.getAttribute("data-day")); }
+        if (item.classList.contains("has-details")) { openItem(item); }
+        item.scrollIntoView({ behavior: "smooth", block: "center" });
+      } else {
+        activate(hash);
+      }
     };
     fromHash();
     window.addEventListener("hashchange", fromHash);
